@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unit Conversion Tool</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Unit Conversion Tool</h1>
+	<div class="form-container">
+		<h2>Length Conversion</h2>
+		<label for="length-input">Enter a length:</label>
+		<input type="number" id="length-input">
+		<select id="length-from">
+            <option value="meters">Meters</option>
+            <option value="kilometer">Kilometer</option>
+			<option value="feet">Feet</option>
+			<option value="inches">Inches</option>
+		</select>
+		<span>to</span>
+		<select id="length-to">
+            <option value="meters">Meters</option>
+            <option value="kilometer">Kilometer</option>
+			<option value="feet">Feet</option>
+			<option value="inches">Inches</option>
+		</select>
+		<button id="length-convert-btn">Convert</button>
+		<p id="length-result"></p>
+	</div>
+	<div class="form-container">
+		<h2>Weight Conversion</h2>
+		<label for="weight-input">Enter a weight:</label>
+		<input type="number" id="weight-input">
+		<select id="weight-from">
+			<option value="kilograms">Kilograms</option>
+            <option value="grams">grams</option>
+			<option value="pounds">Pounds</option>
+			<option value="ounces">Ounces</option>
+		</select>
+		<span>to</span>
+		<select id="weight-to">
+			<option value="kilograms">Kilograms</option>
+            <option value="grams">grams</option>
+			<option value="pounds">Pounds</option>
+			<option value="ounces">Ounces</option>
+		</select>
+		<button id="weight-convert-btn">Convert</button>
+		<p id="weight-result"></p>
+	</div>
+	<div class="form-container">
+		<h2>Time Conversion</h2>
+		<label for="time-input">Enter a time:</label>
+		<input type="number" id="time-input">
+		<select id="time-from">
+			<option value="seconds">Seconds</option>
+			<option value="minutes">Minutes</option>
+			<option value="hours">Hours</option>
+		</select>
+		<span>to</span>
+		<select id="time-to">
+			<option value="seconds">Seconds</option>
+			<option value="minutes">Minutes</option>
+			<option value="hours">Hours</option>
+		</select>
+		<button id="time-convert-btn">Convert</button>
+		<p id="time-result"></p>
+	</div>
+    <div class="footer">
+        <h3>Created By: Sujay Deshpande <a href="http://github.com/Sujay-Deshpande">Github</a></h3>
+    </div>
+	<script src="script.js"></script>
+</body>
+</html>
